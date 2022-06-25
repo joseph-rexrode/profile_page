@@ -1,0 +1,248 @@
+/* general styling */
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Sans MS';
+}
+
+html {
+    min-height: 100%;
+}
+
+.wrapper {
+    min-height: 100vh;
+}
+
+/* navbar section  */
+
+.nav {
+    display: flex;
+    height: 15vh;
+    background-color: black;
+    color: rgb(191, 189, 189);
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 75vw;
+}
+
+.leftside {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+}
+
+li {
+    margin-left: 5vw;
+    list-style: none;
+}
+
+h1 {
+    color: white;
+}
+
+li.selected {
+    color: white;
+}
+
+.signout {
+    background-color: rgb(17, 194, 194);
+    color: white;
+    width: 75px;
+    height: 30px;
+    border: none;
+}
+
+.content-body {
+    min-height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.mainblocks {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-height: inherit;
+    overflow-y: visible;
+    width: 45vw;
+    margin-right: 5vw;
+}
+
+/* profile box section  */
+
+.block1, .block2 {
+    height: 20em;
+    border: 3px solid rgb(212, 212, 212);
+    margin-bottom: 5vh;
+}
+
+.profilebar {
+    height: 5em;
+    background-color: rgb(8, 174, 174);
+}
+
+.profilebar > img {
+    height: 5em;
+    width: 5em;
+    border-radius: 50%;
+    border: 2px solid rgb(203, 201, 201);
+    position: relative;
+    top: 5vh;
+    left: 2vw;
+}
+
+.profilebody, .bodycontent {
+    display: flex;
+    height: 12em;
+    flex-direction: column;
+    justify-content:space-evenly;
+    margin-left: 1.3em;
+    margin-top: 2em;
+    margin-right: 1.3em;
+}
+
+.profilebody > h1 {
+    font-size: 20pt;
+    color: black;
+}
+
+.location, .edit {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    height: 1em;
+    margin-right: 1em;
+}
+
+.edit > .icon {
+    margin-right: 0.5em;
+}
+
+/* other body section  */
+
+.bodytitle {
+    height: 2em;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.bodytitle > h3 {
+    margin-left: 1.3em;
+}
+
+.bodycontent {
+    margin-top: 0.5em;
+}
+
+.date {
+    color: grey
+}
+
+h2 {
+    font-size: 15pt;
+}
+
+/* sidebar section  */
+
+.sidebar {
+    height: 90vh;
+    overflow-y: visible;
+    width: 25vw;
+    font-size: 14pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sideblock1 {
+    display: flex;
+    flex-direction: column;
+    height: 10em;
+    border: 3px solid rgb(212, 212, 212);
+}
+
+.sideblock2 {
+    display: flex;
+    flex-direction: column;
+    height: 17em;
+    border: 3px solid rgb(212, 212, 212);
+}
+
+.sidebanner {
+    height: 10em;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+}
+
+.notification, .notification2 {
+    background-color: grey;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    color: black;
+    margin-right: 1em;
+}
+
+.notification2 {
+    width: 3em;
+}
+
+.sidecontent1 {
+    height: 70%;
+    padding: 2vh 1vw 0px 1vw;
+}
+
+.person {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+
+.personprofile, .choice {
+    display: flex;
+    align-items: center;
+}
+
+.choice {
+    width: 7vw;
+}
+
+.sideicon {
+    height: 1.75em;
+    margin-right: 0.5vw;
+}
+
+.sideprofile {
+    height: 2em;
+    border-radius: 50%;
+    margin-right: 1em;
+}
+
+.sidefooter {
+    height: 15%;
+    display: flex;
+    align-items: center;
+    padding-left: 1vw;
+    border-top: 3px solid rgb(212, 212, 212);
+}
